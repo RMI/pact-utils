@@ -1,0 +1,107 @@
+{
+    "id": "d9be4477-e351-45b3-acd9-e1da05e6f633",
+    "specVersion": "2.0.0",
+    "version": 0,
+    "created": "2022-05-22T21:47:32Z",
+    "updated": "2022-06-22T21:47:32Z",
+    "companyName": "Acme Widgets",
+    "companyIds": [
+        "urn:uuid:51131FB5-42A2-4267-A402-0ECFEFAD1619",
+        "urn:epc:id:sgln:4063973.00000.8"
+    ],
+    "productDescription": "Finest Widgets, Lowest Carbon",
+    "productIds": [
+        "urn:gtin:4712345060507"
+    ],
+    "productCategoryCpc": "3342",
+    "productNameCompany": "Fancy Green Widgets",
+    "comment": "This is a sample file of PACT data showing all mandatory and optional fields. Please see documentation for rules around scope of geography fields. Based on https://www.carbon-transparency.com/media/1qcdbdyn/pathfinder-network_technical-specifications-for-use-case-001.pdf",
+    "pcf": {
+        "declaredUnit": "kilogram",
+        "unitaryProductAmount": "4.546092",
+        "pCfExcludingBiogenic": "1.234",
+        "pCfIncludingBiogenic": "5.678",
+        "fossilGhgEmissions": "5.75",
+        "biogenicEmissions": [
+            "landUseGhgEmissions": "1.2",
+            "iLucGhgEmissions": "1.2",
+            "dLucGhgEmissions": "1.2",
+            "landUseChangeEmissions": "0.3",
+            "otherGhgEmissions": "2.4"
+        ],
+        "biogenicCarbonContent": "0.0",
+        "biogenicCarbonWithdrawal": "0.0",
+        "characterizationFactors": "",
+        "biogenicAccountingMethodology": "",
+        "reportingPeriodStart": "2021-01-01T00:00:00Z",
+        "reportingPeriodEnd": "2022-01-01T00:00:00Z",
+        "geographyCountry": "FR",
+        "primaryDataShare": 47.0,
+        "emissionFactorSources": [
+            {
+                "name": "EPA – Emission Factors for Greenhouse Gas Inventories",
+                "version": "2014-04-04"
+            }
+        ],
+        "boundaryProcessesDescription": "End-of-life NOT included",
+        "exemptedEmissionsPercent": "0.0",
+        "exemptedEmissionsDescription": "",
+        "packagingEmissionsIncluded": true,
+        "packagingGhgEmissions": "1.0",
+        "crossSectoralStandardsUsed": [
+            "GHG Protocol Product standard"
+        ],
+        "productOrSectorSpecificRules": [
+            {
+                "operator": "EPD International",
+                "ruleNames": [
+                    "rule 1",
+                    "rule 2"
+                ],
+                "otherOperatorName": ""
+            }
+        ],
+        "allocationRulesDescription ": "",
+        "uncertaintyAssessmentDescription": "",
+        "dqi": {
+            "coveragePercent": "20",
+            "technologicalDQR": 2.0,
+            "temporalDQR": 2.0,
+            "geographicalDQR": 2.0,
+            "completenessDQR": 2.0,
+            "reliabilityDQR": 2.0
+        },
+        "assurance": {
+            "coverage": "product line",
+            "level": "reasonable",
+            "boundary: "Cradle-to-Gate",
+            "providerName": "",
+            "completedAt": "",
+            "standard": "",
+            "statementOrSignature": "",
+            "comments": "This is an assurance comment."
+        },
+
+    },
+    "extensions": [
+        {
+            "specVersion": "1.0.0",
+            "dataSchema": "https://pathfinder.dev/data-schemas/1.0.0/shipment.json",
+            "data": {
+                "shipmentId": "1234567890",
+                "consignmentId": "abcdefghi",
+                "shipmentType": "PICKUP",
+                "weight": 10,
+                "transportChainElementId": "ABCDEFGHI"
+            }
+        },
+        {
+            "specVersion": "1.0.0",
+            "dataSchema": "https://pathfinder.dev/data-schemas/1.0.0/primary-data-share.json",
+            "data": {
+                "primaryDataShareScope2": 67.2,
+                "primaryDataShareScope3": 12.3
+            }
+        }
+    ]
+}

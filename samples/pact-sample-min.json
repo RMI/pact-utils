@@ -1,0 +1,45 @@
+{
+    "id": "d9be4477-e351-45b3-acd9-e1da05e6f633",
+    "specVersion": "1.0.0",
+    "version": 0,
+    "created": "2022-05-22T21:47:32Z",
+    "companyName": "Acme Widgets",
+    "companyIds": [
+        "urn:uuid:51131FB5-42A2-4267-A402-0ECFEFAD1619",
+        "urn:epc:id:sgln:4063973.00000.8"
+    ],
+    "productDescription": "Finest Widgets, Lowest Carbon",
+    "productIds": [
+        "urn:gtin:4712345060507"
+    ],
+    "productCategoryCpc": "3342",
+    "productNameCompany": "Fancy Green Widgets",
+    "comment": "This is a sample file of PACT data showing all mandatory and optional fields. Based on https://www.carbon-transparency.com/media/1qcdbdyn/pathfinder-network_technical-specifications-for-use-case-001.pdf",
+    "pcf": {
+        "declaredUnit": "kilogram",
+        "unitaryProductAmount": "4.546092",
+        "pCfExcludingBiogenic": "1.234",
+        "fossilGhgEmissions": "5.75",
+        "biogenicCarbonContent": "0.0",
+        "characterizationFactors": "",
+        "reportingPeriodStart": "2021-01-01T00:00:00Z",
+        "reportingPeriodEnd": "2022-01-01T00:00:00Z",
+        "geographyCountrySubdivision": "FR-89",
+        "primaryDataShare": 47.0,
+        "exemptedEmissionsPercent": "0.0",
+        "exemptedEmissionsDescription": "",
+        "packagingEmissionsIncluded": false,
+        "crossSectoralStandardsUsed": [
+            "GHG Protocol Product standard"
+        ],
+        "productOrSectorSpecificRules": [
+            {
+                "operator": "EPD International",
+                "ruleNames": [
+                    "rule 1",
+                    "rule 2"
+                ]
+            }
+        ]
+    }
+}
