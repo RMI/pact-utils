@@ -1,0 +1,1 @@
+Sample PACT json, one with all possible elements, one with the fewest. These files contain test/example data, for empty files that can be used as templates, see the templates directory.

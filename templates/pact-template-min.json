@@ -1,0 +1,39 @@
+{
+    "id": "",
+    "specVersion": "2.0.0",
+    "version": 0,
+    "created": "",
+    "companyName": "",
+    "companyIds": [],
+    "productDescription": "",
+    "productIds": [],
+    "productCategoryCpc": "",
+    "productNameCompany": "",
+    "comment": "",
+    "pcf": {
+        "declaredUnit": "",
+        "unitaryProductAmount": "",
+        "pCfExcludingBiogenic": "",
+        "fossilGhgEmissions": "",
+        "biogenicCarbonContent": "",
+        "characterizationFactors": "",
+        "reportingPeriodStart": "",
+        "reportingPeriodEnd": "",
+        "geographyCountrySubdivision": "",
+        "primaryDataShare": 0,
+        "exemptedEmissionsPercent": "",
+        "exemptedEmissionsDescription": "",
+        "packagingEmissionsIncluded": false,
+        "crossSectoralStandardsUsed": [
+            ""
+        ],
+        "productOrSectorSpecificRules": [
+            {
+                "operator": "",
+                "ruleNames": [
+                    ""
+                ]
+            }
+        ]
+    }
+}

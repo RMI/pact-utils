@@ -23,11 +23,13 @@
         "pCfIncludingBiogenic": "5.678",
         "fossilGhgEmissions": "5.75",
         "biogenicEmissions": [
-            "landUseGhgEmissions": "1.2",
-            "iLucGhgEmissions": "1.2",
-            "dLucGhgEmissions": "1.2",
-            "landUseChangeEmissions": "0.3",
-            "otherGhgEmissions": "2.4"
+            {
+                "landUseGhgEmissions": "1.2",
+                "iLucGhgEmissions": "1.2",
+                "dLucGhgEmissions": "1.2",
+                "landUseChangeEmissions": "0.3",
+                "otherGhgEmissions": "2.4"
+            }
         ],
         "biogenicCarbonContent": "0.0",
         "biogenicCarbonWithdrawal": "0.0",
@@ -74,14 +76,13 @@
         "assurance": {
             "coverage": "product line",
             "level": "reasonable",
-            "boundary: "Cradle-to-Gate",
+            "boundary": "Cradle-to-Gate",
             "providerName": "",
             "completedAt": "",
             "standard": "",
             "statementOrSignature": "",
             "comments": "This is an assurance comment."
-        },
-
+        }
     },
     "extensions": [
         {

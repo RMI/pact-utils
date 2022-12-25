@@ -1,0 +1,67 @@
+{
+    "id": "",
+    "specVersion": "2.0.0",
+    "version": 0,
+    "created": "",
+    "updated": "",
+    "companyName": "",
+    "companyIds": [],
+    "productDescription": "",
+    "productIds": [],
+    "productCategoryCpc": "",
+    "productNameCompany": "",
+    "comment": "",
+    "pcf": {
+        "declaredUnit": "",
+        "unitaryProductAmount": "",
+        "pCfExcludingBiogenic": "",
+        "pCfIncludingBiogenic": "",
+        "fossilGhgEmissions": "",
+        "biogenicEmissions": [{}],
+        "biogenicCarbonContent": "",
+        "biogenicCarbonWithdrawal": "",
+        "characterizationFactors": "",
+        "biogenicAccountingMethodology": "",
+        "reportingPeriodStart": "",
+        "reportingPeriodEnd": "",
+        "geographyCountry": "",
+        "primaryDataShare": 0,
+        "emissionFactorSources": [{}],
+        "boundaryProcessesDescription": "",
+        "exemptedEmissionsPercent": "",
+        "exemptedEmissionsDescription": "",
+        "packagingEmissionsIncluded": true,
+        "packagingGhgEmissions": "",
+        "crossSectoralStandardsUsed": [],
+        "productOrSectorSpecificRules": [
+            {
+                "operator": "",
+                "ruleNames": [
+                    ""
+                ],
+                "otherOperatorName": ""
+            }
+        ],
+        "allocationRulesDescription ": "",
+        "uncertaintyAssessmentDescription": "",
+        "dqi": {
+            "coveragePercent": "",
+            "technologicalDQR": 0,
+            "temporalDQR": 0,
+            "geographicalDQR": 0,
+            "completenessDQR": 0,
+            "reliabilityDQR": 0
+        },
+        "assurance": {
+            "coverage": "",
+            "level": "",
+            "boundary": "",
+            "providerName": "",
+            "completedAt": "",
+            "standard": "",
+            "statementOrSignature": "",
+            "comments": ""
+        }
+    },
+    "extensions": [{}]
+}
